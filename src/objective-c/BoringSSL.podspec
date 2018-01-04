@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
 
   major_version = version[0] + '.0'
   s.source = {
-    :git => 'https://boringssl.googlesource.com/boringssl',
+    :git => 'https://github.com/fengbfyt/boringssl',
     :tag => "version_for_cocoapods_#{major_version}",
   }
 
